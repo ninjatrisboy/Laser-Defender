@@ -195,7 +195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314, y: 886}
+  m_AnchoredPosition: {x: -314, y: 339}
   m_SizeDelta: {x: 438, y: 113.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &812631881
@@ -861,7 +861,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 107588570, guid: fe14c7983caef45239b27135fc93fe87, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 886
+      value: 325
       objectReference: {fileID: 0}
     - target: {fileID: 107588572, guid: fe14c7983caef45239b27135fc93fe87, type: 3}
       propertyPath: m_Color.r
@@ -1349,6 +1349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165062239141144158, guid: 6d16654c4b00a424288135062f81e590,
+        type: 3}
+      propertyPath: orthographic size
+      value: 9.5172825
       objectReference: {fileID: 0}
     - target: {fileID: 6165062239141144225, guid: 6d16654c4b00a424288135062f81e590,
         type: 3}
