@@ -195,7 +195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314, y: 339}
+  m_AnchoredPosition: {x: -27, y: 339}
   m_SizeDelta: {x: 438, y: 113.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &812631881
@@ -230,7 +230,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6b499be8ccb1f4a9e8a0ab513ec6ff5b, type: 3}
-    m_FontSize: 80
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -241,7 +241,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HEALTHH
+  m_Text: HEALTH
 --- !u!222 &812631883
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -861,7 +861,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 107588570, guid: fe14c7983caef45239b27135fc93fe87, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 325
+      value: 334
+      objectReference: {fileID: 0}
+    - target: {fileID: 107588570, guid: fe14c7983caef45239b27135fc93fe87, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 107588572, guid: fe14c7983caef45239b27135fc93fe87, type: 3}
       propertyPath: m_Color.r
@@ -881,7 +885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 107588572, guid: fe14c7983caef45239b27135fc93fe87, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 80
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4943512902258585510, guid: fe14c7983caef45239b27135fc93fe87,
         type: 3}
